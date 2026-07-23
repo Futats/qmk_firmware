@@ -1,0 +1,164 @@
+layout: {"qmk_keyboard":"beekeeb/piantor","layout_name":"LAYOUT_split_3x5_3"}
+layers:
+  Base:
+    - Q
+    - W
+    - E
+    - R
+    - T
+    - Y
+    - U
+    - I
+    - O
+    - P
+    - {"t":"A","h":"LGui"}
+    - {"t":"S","h":"LAlt"}
+    - {"t":"D","h":"LCtrl"}
+    - {"t":"F","h":"LShift"}
+    - {"t":"G","h":"Nav"}
+    - {"t":"H","h":"Nav"}
+    - {"t":"J","h":"RShift"}
+    - {"t":"K","h":"RCtrl"}
+    - {"t":"L","h":"RAlt"}
+    - {"s": ":","t":";","h":"RGui"}
+    - Z
+    - X
+    - C
+    - V
+    - B
+    - N
+    - M
+    - {"s":"<","t":","}
+    - {"s":">","t":"."}
+    - {"s":"?","t":"/"}
+    - Tab
+    - {"t":"Bksp","h":"Number"}
+    - {"t":"Space","h":"Symbol"}
+    - {"t":"Enter","h":"Symbol"}
+    - {"t":"Del","h":"Number"}
+    - Tab
+
+  Symbol:
+    - "|"
+    - {"s":"\"",    "t":"'"}
+    - "%"
+    - "$"
+    - "!"
+    - "+"
+    - "{"
+    - "}"
+    - "?"
+    - "*"
+
+    - {"t":"#","h":"LGui"}
+    - {"t":"\"","h":"LAlt"}
+    - {"t":"<","h":"LCtrl"}
+    - {"t":"=","h":"LShift"}
+    - ">"
+    - "-"
+    - {"t":"(","h":"RShift"}
+    - {"t":")","h":"RCtrl"}
+    - {"t":"_","h":"RAlt"}
+    - {"t":":","h":"RGui"}
+    
+    - "~"
+    - {"s":"~",     "t":"`"}
+    - "&"
+    - "^"
+    - {"s":"|", "t":"\\"}
+    - "@"
+    - {"s":"{", "t":"["}
+    - {"s":"{", "t":"]"}
+    - "."
+    - "/"
+    
+    - "▽"
+    - "▽"
+    - "▽"
+    - "▽"
+    - "▽"
+    - "▽"
+
+  Number:
+    - F1
+    - F2
+    - F3
+    - F4
+    - Home
+    - "+"
+    - "7"
+    - "8"
+    - "9"
+    - "*"
+
+    - {"t":"F5", "h":"LGui"}
+    - {"t":"F6","h":"LAlt"}
+    - {"t":"F7","h":"LCtrl"}
+    - {"t":"F8","h":"LShift"}
+    - "End"
+    - "-"
+    - "4" # - {"t":"4","h":"RShift"}
+    - "5" # - {"t":"5","h":"RCtrl"}
+    - "6" # - {"t":"6","h":"RAlt"}
+    - "0" # - {"t":"0","h":"RGui"}
+
+    - F9
+    - F10
+    - F11
+    - F12
+    - "🧮"
+    - ":"
+    - "1"
+    - "2"
+    - "3"
+    - "/"
+    - "▽"
+    - "▽"
+    - "▽"
+    - "."
+    - "0"
+    - "."
+  Nav:
+    - 🔇
+    - 🔉
+    - 🔊
+    - ⏯
+    - null
+    - null
+    - {"t":"Y","s":"LSFT+"}
+    - END
+    - {"t":"I","s":"LSFT+"}
+    - null
+
+    - {"t":"Home", "h":"LGui"}
+    - {"t":"←","h":"LAlt"}
+    - {"t":"↓","h":"LCtrl"}
+    - {"t":"→","h":"LShift"}
+    - "End"
+    - "Home"
+    - {"t":"←","h":"RShift"}
+    - {"t":↓,"h":"RCtrl"}
+    - {"t":↑,"h":"RAlt"}
+    - {"t":→,"h":"RGui"}
+
+    - null
+    - null
+    - "⏮"
+    - "⏭"
+    - null
+    - null
+    - {"t":"N","s":"LSFT+"}
+    - {"t":"M","s":"LSFT+"}
+    - null
+    - null
+
+    - "☰"
+    - "Mouse Wheel\nUp"
+    - "Mouse Wheel\nDown"
+    - "Page\nDown"
+    - "Page\nUp"
+    - End
+combos:
+  - { tk: [H, J], k: Home, l: [Base] }
+  - { tk: [J, K], k: Space, l: [Base] }
+  - { tk: [K, L], k: End, l: [Base] }
